@@ -1,6 +1,5 @@
 import streamlit as st
 import google.generativeai as genai
-from dotenv import load_dotenv
 import os
 
 # Load API Key securely
