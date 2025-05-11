@@ -12,7 +12,6 @@ st.set_page_config(page_title="MindMirror - AI Therapy", layout="centered")
 
 st.title("🧠 MindMirror: AI-Powered Emotional Support")
 st.markdown("Write how you're feeling or share your story, and let the AI help you reflect 💬")
-st.markdown('<p style="font-size: 5pt";>By submitting, you agree that your anonymized input may be saved for analysis or research.<p>', unsafe_allow_html=True)
 
 user_input = st.text_area("Your thoughts today...", height=200)
 
